@@ -7,6 +7,7 @@ public class HelloWorld {
     public static void main(String[] args) {
 
         long startTime = System.currentTimeMillis();
+        System.out.println("Start time: " + startTime);
 
         System.out.println("Hello World");
         Date date = new Date();
